@@ -1,0 +1,21 @@
+{
+  "name": "groq-telegram-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This repository contains the source code for a Telegram bot that facilitates interaction with Groq's Language Processing Unit (LPU) AI models. The bot allows users to select between various pre-trained models provided by Groq.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/bot.js",
+    "start": "node src/bot.js"
+  },
+  "author": "haybarcheezy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1",
+    "groq-sdk": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
