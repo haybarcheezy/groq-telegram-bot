@@ -13,10 +13,10 @@ importers:
         version: 16.4.5
       grammy:
         specifier: ^1.21.1
-        version: 1.22.4
+        version: 1.21.1
       groq-sdk:
         specifier: ^0.3.1
-        version: 0.3.3
+        version: 0.3.1
     devDependencies:
       nodemon:
         specifier: ^3.1.0
@@ -24,8 +24,8 @@ importers:
 
 packages:
 
-  '@grammyjs/types@3.6.2':
-    resolution: {integrity: sha512-7OswNRPN72qFUWhysNrY96+5LKBQXgxqw0iNbleYV7G8GB6ZPVdkwFMIZn1Fda2iRKMYT6S6Sxuel0465VGtHQ==}
+  '@grammyjs/types@3.5.2':
+    resolution: {integrity: sha512-KZlJcOdgD8N6SMIHWfwmb11L5/L2+rptWBxCexbzNCry/wfLXFFGFniyUrySnvFo+cWMxgy5GuImwY3mhUrP8g==}
 
   '@types/node-fetch@2.6.11':
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
@@ -133,12 +133,12 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
 
-  grammy@1.22.4:
-    resolution: {integrity: sha512-7EIdixo4kV/lJWyKswyi5n3AJ2U/2731rPf8a3SKoXQ0tiHdCTvdgc2atdN2b10g8o6wJ2SXTf0xQX3Dqm1buA==}
+  grammy@1.21.1:
+    resolution: {integrity: sha512-gXHHU83yffHtxutuQlyefClFZN+3bZrmGXYcKVAE2R9SSNlnW9ohF4dC7omn6gHhBoZNRiRS4kumiFc12sal3A==}
     engines: {node: ^12.20.0 || >=14.13.1}
 
-  groq-sdk@0.3.3:
-    resolution: {integrity: sha512-wdOeZ2QymPjjP3tmFpUAnfMisoLbt7xF2MfpROeFAngcqWbfTyB9j9pMWSEAMF/E4gZx8f2Y+5zswO0q92CSxA==}
+  groq-sdk@0.3.1:
+    resolution: {integrity: sha512-A3/u52JDBR1BzAmMCc+XceDJdNGc0KipDrJOWeIFIYMy6vz4hWvfJBFLXgoS7MHNcLZ4jG89L48JhH/ONcaiMA==}
 
   has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
@@ -279,7 +279,7 @@ packages:
 
 snapshots:
 
-  '@grammyjs/types@3.6.2': {}
+  '@grammyjs/types@3.5.2': {}
 
   '@types/node-fetch@2.6.11':
     dependencies:
@@ -385,9 +385,9 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  grammy@1.22.4:
+  grammy@1.21.1:
     dependencies:
-      '@grammyjs/types': 3.6.2
+      '@grammyjs/types': 3.5.2
       abort-controller: 3.0.0
       debug: 4.3.4(supports-color@5.5.0)
       node-fetch: 2.7.0
@@ -395,7 +395,7 @@ snapshots:
       - encoding
       - supports-color
 
-  groq-sdk@0.3.3:
+  groq-sdk@0.3.1:
     dependencies:
       '@types/node': 18.19.31
       '@types/node-fetch': 2.6.11
