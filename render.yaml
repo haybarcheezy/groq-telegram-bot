@@ -2,7 +2,7 @@ services:
   - name: groq-telegram-bot
     type: web
     runtime: node
-    buildCommand: pnpm install && pnpm run build
+    buildCommand: pnpm install
     startCommand: pnpm start
     envVars:
       - key: NODE_ENV
